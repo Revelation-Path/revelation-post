@@ -222,7 +222,7 @@ jobs:
 
       - name: Generate coverage
         run: |
-          cargo llvm-cov nextest --all-features --profile ci --lcov --output-path lcov.info
+          cargo llvm-cov nextest --all-features --profile ci --lcov --output-path lcov.info --no-tests=pass
           cargo llvm-cov report --html
 
       - name: Upload to Codecov

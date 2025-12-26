@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2025 Revelation Team
+// SPDX-License-Identifier: MIT
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Revelation Team
+# SPDX-License-Identifier: MIT
+
 [package]
 name = "revelation-post"
 version = "0.1.0"

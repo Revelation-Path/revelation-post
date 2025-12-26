@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 """
 body = """
 {%- macro remote_url() -%}
-  https://github.com/Revelation-Path/revelation-user
+  https://github.com/Revelation-Path/revelation-post
 {%- endmacro -%}
 
 {% if version -%}
@@ -69,7 +69,7 @@ conventional_commits = true
 filter_unconventional = true
 split_commits = false
 commit_preprocessors = [
-    { pattern = '\((\w+)\s?\#([0-9]+)\)', replace = "([#${2}](https://github.com/Revelation-Path/revelation-user/issues/${2}))" },
+    { pattern = '\((\w+)\s?\#([0-9]+)\)', replace = "([#${2}](https://github.com/Revelation-Path/revelation-post/issues/${2}))" },
 ]
 commit_parsers = [
     { message = "^feat", group = "✨ Features" },
@@ -95,4 +95,4 @@ sort_commits = "newest"
 
 [remote.github]
 owner = "Revelation-Path"
-repo = "revelation-user"
+repo = "revelation-post"

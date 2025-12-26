@@ -20,6 +20,6 @@ slow-timeout = { period = "120s", terminate-after = 3 }
 
 [profile.ci.junit]
 path = "junit.xml"
-report-name = "revelation-user"
+report-name = "revelation-post"
 store-success-output = false
 store-failure-output = true
